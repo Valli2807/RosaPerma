@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="buttonDefault" parent="android:Widget.Button">
+        <item name="backgroundColor">@drawable/button_onclick</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/edit_text_textsize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left_right_padding</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_left_right_padding</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_text_top_bottom_padding</item>
+    </style>
+
+    <style name="EditTextDefault" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textSize">@dimen/edit_text_textsize</item>
+        <item name="android:layout_marginLeft">@dimen/edit_text_margin_left_right_padding</item>
+        <item name="android:layout_marginRight">@dimen/edit_text_margin_left_right_padding</item>
+        <item name="android:layout_marginTop">@dimen/edit_text_margin_top_bottom_padding</item>
+        <item name="android:paddingLeft">@dimen/edit_text_left_right_padding</item>
+    </style>
+</resources>

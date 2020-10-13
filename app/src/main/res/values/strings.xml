@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">RosaPerma</string>
+    <string name="tab_text_1">Login</string>
+    <string name="tab_text_2">Signup</string>
+
+    <!--   Login Activity-->
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="whatsapp_number">Whatsapp Number</string>
+    <string name="address">Address</string>
+    <string name="emailid">Email Id</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="memberlist">Member List</string>
+    <string name="uttar_pradesh">Uttar Pradesh, India</string>
+    <string name="required">*Required</string>
+    <string name="post_name">Post &amp; Name</string>
+    <string name="newpassword_reenter">Re-enter Password</string>
+    <string name="district">For which district do you want to give name for?</string>
+    <string name="block">Select the block</string>
+    <string name="panchayat">Select the panchayat</string>
+    <string name="village">Select the village</string>
+>
+
+    <!--    user messages-->
+    <string name="invalid_mobNum">"Invalid Mobile Number"</string>
+    <string name="invalid_password">"Password Should be Minimum 8 Characters"</string>
+    <string name="invalid_username">"Invalid username"</string>
+    <string name="invalid_emailId">"Invalid EmailId"</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="signup_successful">Signup Successful</string>
+    <string name="all_fields_required">"All fields are required"</string>
+    <string name="invalid_reenterpassword">"Invalid Re-enter Password"</string>
+    <string name="password_not_same">"New passwords are not same"</string>
+    <string name="passwords_not_same">"Passwords are not same"</string>
+    <string name="invalid_pincode">"Invalid Pin Code"</string>
+    <string name="please_Wait">"Please wait....</string>
+    <string name="no_network">Please connect to the internet and try again.</string>
+    <string name="signin_in">"Signing In..."</string>
+    <string name="logging_in">"Logging In..."</string>
+    <string name="fecthing">"Fetching..."</string>
+    <string name="ok">"Ok"</string>
+    <string name="yes">"Yes"</string>
+    <string name="no">"No"</string>
+    <string name="error">"Error</string>
+    <string name="network">"No Network</string>
+    <string name="user_not_confirm">User not confirmed.</string>
+    <string name="logout_successful">Logout Successful</string>
+    <string name="logout_confirmation">Do you want to logout?</string>
+    <string name="user_already_exixits">The provided username already exists</string>
+    <string name="sign_in_successful">You are registered successfully. Please Login. </string>
+    <string name="log_in_successful">Logged in successfully. </string>
+    <string-array name="post_name_list">
+        <item>Choose</item>
+        <item>President</item>
+        <item>Vice President</item>
+        <item>General Secretary</item>
+        <item>Secretary</item><item>Member</item>
+    </string-array>
+
+    <string name="your_answer_hint">Your Answer</string>
+    <string name="this_field_required">This field is required.</string>
+    <string name="enter_post">Enter post for which the name is being given.</string>
+
+</resources>
